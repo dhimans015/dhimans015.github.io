@@ -1,0 +1,342 @@
+<tml>
+
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+        <link rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="/css/login-form.css">
+        <script src="/js/admin.js"></script>
+    </head>
+
+    <body style="background-image:url('/img/retrosupply-jLwVAUtLOAQ-unsplash.jpg');background-size: cover;">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light" style="position: fixed;width: 100%; z-index: 9999;">
+            <img src="/images/logo.jpg" alt="" style="height: 50px; width: 150px;">
+            <span>&nbsp;</span>
+            <a class="navbar-brand" href="#">Movie World</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+          
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                  <a class="nav-link" href="/index.html">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="/html/about_us.html">About Us</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Categories
+                  </a>
+                  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="#">Action</a>
+                    <a class="dropdown-item" href="#">Sci-fi</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="#">Bollywood</a>
+                  </div>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link " href="/html/contact.html">Contact Us</a>
+                </li>
+              </ul>
+              <form class="form-inline my-2 my-lg-0">
+                <a class="p-2 text-dark cart " href="/html/cart.html" >Wishlist ❤</a>
+                  <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+                  <!-- <a class="btn btn-outline-primary" href="/html/login-form.html">Admin</a>
+                  <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span> -->
+                  <!-- <a class="btn btn-outline-primary" href="/index.html">Sign Out</a> -->
+              </form>
+            </div>
+          </nav>
+    </body>
+       
+
+        <br><br><br> <br><br><br>
+        <div class="container">
+            <div class="container form bg-white pt-5 mt-4 mb-3">
+
+                <p class="text-center login-heading hide-me">Admin</p>
+                <div class="container hide-me">
+                    <div class="row">
+                        <div class="col mt-4 pl-5 pr-5">
+                            <p class="username">username</p>
+                            <div class="row mt-4">
+                                <div class="col-2 text-center pt-1 pr-0">
+                                    <i class="fa fa-user-o" aria-hidden="true" id="user"></i>
+                                </div>
+                                <div class="col-10 pl-0">
+                                    <input type="text" placeholder="Type your username" class='input-1'>
+                                </div>
+                            </div>
+                            <hr class="hr-1">
+                            <div class="hide"></div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col mt-4 pl-5 pr-5">
+                            <p class="username">Password</p>
+                            <div class="row mt-4">
+                                <div class="col-2 text-center pt-1 pr-0">
+                                    <i class="fa fa-lock" aria-hidden="true" id="lock"></i>
+                                </div>
+                                <div class="col-10 pl-0">
+                                    <input type="password" placeholder="Type your password" class="input-2">
+                                </div>
+                            </div>
+                            <hr class="hr-2">
+                            <div class="hide-1"></div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col text-right pr-5">
+                            <a href="#"><span class="forget-password">Forget password?</span></a>
+                        </div>
+                    </div>
+                    <div class="row mt-4">
+                        <div class="col pl-5 pr-5">
+                            <a href="/html/admin_cart.html"><span
+                                    class="btn btn-block text-white login-button">login</span></a>
+                        </div>
+                    </div>
+                    <div class="row mt-5">
+                        <div class="col text-center">
+                            <span
+                                style="text-transform: capitalize;font-family: Arial, Helvetica, sans-serif;font-size:15px;font-weight:600;color:rgb(148, 141, 141)">or
+                                sign up using</span>
+                        </div>
+                    </div>
+                    <div class="row mt-5">
+                        <div class='col text-center'>
+                            <span class="facebook-icon"><i class="fa fa-facebook" aria-hidden="true"></i></span>
+                            <span class="twitter-icon"><i class="fa fa-twitter" aria-hidden="true"></i></span>
+                            <span class="google-icon"><i class="fa fa-google" aria-hidden="true"></i></span>
+                        </div>
+                    </div>
+                    <div class="row mt-5">
+                        <div class="col text-center">
+                            <span
+                                style="text-transform: capitalize;font-family: Arial, Helvetica, sans-serif;font-size:15px;font-weight:600;color:rgb(148, 141, 141)">or
+                                sign up using</span>
+                        </div>
+                        <div class="col-12 text-center pt-3">
+                            <a href="#"><span class="sign-up">sign up</span></a>
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+
+
+
+
+                <form role="form" onsubmit="signUp(event);">
+                    <p class="text-center login-heading show-me">sign up</p>
+                    <div class="row show-me">
+                        <div class="col mt-4 pl-5 pr-5">
+                            <p class="username">First name</p>
+                            <div class="row mt-4">
+                                <div class="col-2 text-center pt-1 pr-0">
+                                    <i class="fa fa-user-o" aria-hidden="true" id="user"></i>
+                                </div>
+                                <div class="col-10 pl-0">
+                                    <input type="text" id="fname" placeholder="Type your username" class='first-name'>
+                                </div>
+                            </div>
+                            <hr class="hr-1">
+                            <div class="first-name-hide"></div>
+                        </div>
+                    </div>
+                    <div class="row show-me">
+                        <div class="col mt-4 pl-5 pr-5">
+                            <p class="username">Last name</p>
+                            <div class="row mt-4">
+                                <div class="col-2 text-center pt-1 pr-0">
+                                    <i class="fa fa-user-o" aria-hidden="true" id="user"></i>
+                                </div>
+                                <div class="col-10 pl-0">
+                                    <input type="text" placeholder="Type your username" class='last-name'>
+                                </div>
+                            </div>
+                            <hr class="hr-1">
+                            <div class="last-name-hide"></div>
+                        </div>
+                    </div>
+                    <div class="row show-me">
+                        <div class="col mt-4 pl-5 pr-5">
+                            <p class="username">Email-id</p>
+                            <div class="row mt-4">
+                                <div class="col-2 text-center pt-1 pr-0">
+                                    <i class="fa fa-envelope-o" aria-hidden="true" id="user"></i>
+                                </div>
+                                <div class="col-10 pl-0">
+                                    <input type="text" placeholder="Type your username" class='email'>
+                                </div>
+                            </div>
+                            <hr class="hr-1">
+                            <div class="email-hide"></div>
+                        </div>
+                    </div>
+                    <div class="row show-me">
+                        <div class="col mt-4 pl-5 pr-5">
+                            <p class="username">Password</p>
+                            <div class="row mt-4">
+                                <div class="col-2 text-center pt-1 pr-0">
+                                    <i class="fa fa-lock" aria-hidden="true" id="lock"></i>
+                                </div>
+                                <div class="col-10 pl-0">
+                                    <input type="password" id="pwd" placeholder="Type your password"
+                                        class="password-signup">
+                                </div>
+                            </div>
+                            <hr class="hr-2">
+                            <div class="password-signup-hide"></div>
+                        </div>
+                    </div>
+                    <div class="row show-me">
+                        <div class="col mt-4 pl-5 pr-5">
+                            <p class="username">Confirm-password</p>
+                            <div class="row mt-4">
+                                <div class="col-2 text-center pt-1 pr-0">
+                                    <i class="fa fa-lock" aria-hidden="true" id="lock"></i>
+                                </div>
+                                <div class="col-10 pl-0">
+                                    <input type="password" placeholder="Type your password"
+                                        class="confirm-password-signup">
+                                </div>
+                            </div>
+                            <hr class="hr-2">
+                            <div class="confirm-password-signup-hide"></div>
+                        </div>
+                    </div>
+                    <div class="row show-me">
+                        <div class="col pl-5">
+                            <a href="#"><span class="forget-password">I accept the <span
+                                        style="text-transform:capitalize;color:blue">terms of use</span>&
+                                    <span style="text-transform:capitalize;color:blue">privacy policy</span> </a>
+                        </div>
+                    </div>
+                    <div class="row mt-4 show-me">
+                        <div class="col pl-5 pr-5">
+                            <span class="btn btn-block text-white signup-button">
+                                  <button type="submit">sign up</button>
+                            </span>
+                        </div>
+
+                    </div>
+
+
+
+                </form>
+
+
+
+
+
+
+
+                <div class="row mt-5 show-me">
+                    <div class="col text-center">
+                        <span
+                            style="text-transform: capitalize;font-family: Arial, Helvetica, sans-serif;font-size:15px;font-weight:600;color:rgb(148, 141, 141)">or
+                            sign up using</span>
+                    </div>
+                </div>
+                <div class="row mt-5 show-me">
+                    <div class='col text-center'>
+                        <span class="facebook-icon"><i class="fa fa-facebook" aria-hidden="true"></i></span>
+                        <span class="twitter-icon"><i class="fa fa-twitter" aria-hidden="true"></i></span>
+                        <span class="google-icon"><i class="fa fa-google" aria-hidden="true"></i></span>
+                    </div>
+                </div>
+                <div class="row mt-5 show-me">
+                    <div class="col text-center">
+                        <span
+                            style="text-transform: capitalize;font-family: Arial, Helvetica, sans-serif;font-size:15px;font-weight:600;color:rgb(148, 141, 141)">already
+                            have an account</span>
+                    </div>
+                    <div class="col-12 text-center pt-3">
+                        <a href="#"><span class="login-page">login</span></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </form>
+        <div class="container-fluid mt-5 pt-2 bg-dark text-white">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-4 col-lg-4 col-md-4 col-sm-12 col-12 footer pt-5">
+                        <a href="#/">
+                            <p style="font-size:20px;text-transform: uppercase;font-weight: 800;color:white"
+                                data-aos="slide-right">Movie World</p>
+                        </a>
+                        <p data-aos="slide-right"><br>
+                            Lorem, ipsum dolor.<br>
+                            Lorem ipsum dolor sit amet,<br>
+                            consectetur adipisicing elit.<br></p>
+                    </div>
+                    <div class="col-xl-3 pt-5 hide-girl">
+                        <a href="#/"><span
+                                style="font-size:20px;text-transform: uppercase;font-weight: 800;color:white"
+                                data-aos="zoom-in-left">Genre</span><br></a>
+                        <p style="margin-top:3%" data-aos="slide-up">Hollywood</p>
+                        <p style="margin-top:-3%" data-aos="slide-up">Bollywood</p>
+                        <p style="margin-top:-3%" data-aos="slide-up">Action</p>
+                        <p style="margin-top:-3%;" data-aos="slide-up">Thriller</p>
+                    </div>
+                    <div class="col-xl-3 col-lg-4 col-md-4 col-sm-12 col-12 footer  pt-5">
+                        <a href="#/"><span
+                                style="font-size:20px;text-transform: uppercase;font-weight: 800;color:white"
+                                class="text-center" data-aos="zoom-in-left">useful link</span><br></a>
+                        <p style="margin-top:3%;margin-left:1%;" data-aos="fade-up">saurabh@</p>
+                        <p style="margin-top:-3%;margin-left:1%;" data-aos="fade-up">saurabh@</p>
+                        <p style="margin-top:-3%;margin-left:1%;" data-aos="fade-up">saurabh@</p>
+                        <p style="margin-top:-3%;margin-left:1%;" data-aos="fade-up">saurabh@</p>
+                    </div>
+                    <div class="col-xl-2 col-lg-4 col-md-4 col-sm-12 col-12 footer pt-5 pb-3">
+                        <a href="#/">
+                            <p style="font-size:20px;text-transform: uppercase;font-weight: 800;color:white"
+                                data-aos="slide-left">contact</p>
+                        </a>
+                        <p data-aos="fade-up"><i class="fa fa-home" aria-hidden="true"
+                                style="font-size:20px;"></i>&nbsp; Mzn 251001</p>
+                        <p data-aos="fade-up"><i class="fa fa-envelope"
+                                aria-hidden="true"></i>&nbsp;dhimans015@gmail.com</p>
+                        <p data-aos="fade-up"><i class="fa fa-phone" aria-hidden="true"></i>&nbsp; +91987654321</p>
+                        <p data-aos="fade-up"><i class="fa fa-print" aria-hidden="true"></i>&nbsp; +91987654321</p>
+                    </div>
+                </div>
+            </div>
+            <hr style="color:white;width:100%;border:1px solid">
+            <div class="container mt-4 pb-4">
+                <div class="row">
+                    <div class="col-12 col-xl-6 col-lg-6 col-md-6 col-sm-6 ">
+                        <p><a href="#/" style="color:white">© 2021 Copyright:</a><span style="font-weight:600;"><a
+                                    href="#/" style="color:white">Movie World</a></span></p></a>
+                    </div>
+                    <div class="col-12 col-xl-6 col-lg-6 col-md-6 col-sm-6 icon-head">
+                        <a href="#/"><span class="icons-2" style="color:white"><i class="fa fa-facebook"
+                                    aria-hidden="true"></i></span></a>
+                        <a href="#/"><span class="icons-3" style="color:white"><i class="fa fa-twitter"
+                                    aria-hidden="true"></i></span></a>
+                        <a href="#/"><span class="icons-1" style="color:white"><i class="fa fa-google-plus"
+                                    aria-hidden="true"></i></span></a>
+                        <a href="#/"><span class="icons" style="color:white"><i class="fa fa-instagram"
+                                    aria-hidden="true"></i></span></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+    </body>
+
+    </html>
